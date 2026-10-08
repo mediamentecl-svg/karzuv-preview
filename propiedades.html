@@ -59,7 +59,10 @@ img{max-width:100%}
   [style*="repeat(2, minmax(0, 1fr))"]{grid-template-columns:1fr!important}
   [style*="height: 480px"],[style*="height: 540px"]{height:300px!important}
   header img{height:46px!important}
+  img[style*="height: 520px"],img[style*="height: 560px"]{height:440px!important}
 }
+@media (max-width:900px){[style*="repeat(4, minmax(0, 1fr))"]{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media (max-width:480px){[style*="repeat(4, minmax(0, 1fr))"]{grid-template-columns:1fr!important}}
 </style>
 </head>
 <body>
@@ -110,7 +113,7 @@ img{max-width:100%}
 <div class="wrap" style="display: flex; flex-direction: column; gap: 40px;">
 <div style="display: flex; gap: 48px; flex-wrap: wrap; justify-content: space-between;">
 <div style="display: flex; flex-direction: column; gap: 16px; flex: 1 1 280px;">
-<span style="background: #ffffff; border-radius: 14px; padding: 12px 16px; display: inline-block; align-self: flex-start;"><img src="img/logo.png" alt="Karzuv Propiedades" style="height: 52px; display: block;"></span>
+<img src="img/logo-white.png" alt="Karzuv Propiedades" style="height: 64px; width: auto; display: block; align-self: flex-start;">
 <p style="margin: 0; font-size: 15px; line-height: 1.6; max-width: 320px;">Más que propiedades, acompañamos tus proyectos de vida.</p>
 </div>
 <nav aria-label="Pie" style="display: flex; flex-direction: column; gap: 10px; flex: 0 1 200px; font-size: 15px;">
